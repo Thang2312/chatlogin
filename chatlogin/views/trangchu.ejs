@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Demo Chat P2P</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="jquery.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="xuli.js"></script>
+  </head>
+  <body>
+    <div class="logginForm" id="logginform">
+      <span class="data-reactroot">
+        <div class="zLogin-layout">
+          <div class="header">
+            <h1><a class="logo"></a></h1>
+            <h2 class="hide-on-med-and-down">Đăng nhập bằng tài khoản Chat</h2>
+          </div>
+        </div></span>
+      <div class="dk">
+        <input type="text" name="" value="" id="user" placeholder="Name Chat" class="user">
+        <input type="button" name="" value="Đăng Nhập" id="btnRegister">
+      </div>
+    </div>
+    <div class="chatForm" id="chatform" style="margin-top: 95px;">
+      <div class="left" >
+        <div id="boxTitle">User Online</div>
+        <div id="boxContent">
+          <div class="useronLine">Thang     <span></span></div>
+        </div>
+      </div>
+      <div class="right" id="right">
+        <div class="sayHi" id="sayHi">
+          Hello <span id="currenUser">Thang</span>
+          <input type="button" name="" value="Logout" id="btnLogout">
+        </div>
+        <div class="" id="lisMessage"></div>
+        <div id="thongbao"></div>
+        <input type="text" name="" value="" id="textMessage">
+        <input type="button" name="" value="Send" id="btnSendMessage">
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+body {
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+.logginForm {
+  margin-top: 5%;
+  margin-bottom: 2%
+}
+
+.data-reactroot {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+
+.zLogin-layout {
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 24px 20px 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .zLogin-layout {
+    padding: 24px 0 0;
+  }
+}
+
+.header {
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  font-weight: inherit;
+}
+
+.dk {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+#loginform .user {
+  display: inline-block;
+  background-color: transparent;
+  width: 100%;
+  padding: 6px 0;
+  font-size: .875rem;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  border: none;
+}
+.header h1 a {
+  display: block;
+  background: url(../img/logo.png) 0 0 no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 41px;
+  margin: 0 auto 18px;
+}
+
+.header h2, .header h2 strong {
+  font-weight: bold;
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.header h2 {
+  display: block;
+  margin-bottom: 18px;
+  color: #333;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.chatForm .left, .right {
+  min-height: 300px;
+}
+
+.left {
+  width: 30%;
+  float: left;
+  background-color: #f0f2d0;
+}
+
+.right {
+  width: 70%;
+  float: right;
+  background-color: #d4f9f8;
+}
+
+#boxTitle {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+#boxContent {
+  /* border: 1px solid black; */
+  border-top: none;
+  padding: 5px;
+  text-align: center;
+}
+
+#boxContent span {
+  background: rgb(66, 183, 42);
+  border-radius: 50%;
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  text-align: right;
+}
+
+#sayHi {
+  text-align: right;
+}
+
+#lisMessage {
+  height: 222px;
+  background-color: #fcead4;
+}
+
+#textMessage {
+  background-color: transparent;
+
+}
